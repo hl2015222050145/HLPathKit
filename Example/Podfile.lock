@@ -1,0 +1,16 @@
+PODS:
+  - HLPathKit (0.1.0)
+
+DEPENDENCIES:
+  - HLPathKit (from `../`)
+
+EXTERNAL SOURCES:
+  HLPathKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLPathKit: 6b5f2d9235541122917ee6101bdf5cb428e077b9
+
+PODFILE CHECKSUM: 5aca746c343c126c803a245d881b9cdc4dfc926d
+
+COCOAPODS: 1.11.3
