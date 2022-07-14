@@ -208,7 +208,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				63B26EAF7021B700572B545A /* [CP] Embed Pods Frameworks */,
+				837F7F55A99B80D32F125119 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,18 +295,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		63B26EAF7021B700572B545A /* [CP] Embed Pods Frameworks */ = {
+		837F7F55A99B80D32F125119 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HLPathKit_Example/Pods-HLPathKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HLPathKit/HLPathKit.framework",
+				"${BUILT_PRODUCTS_DIR}/HLPathKit/HLPathKit_Classes_h.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HLPathKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HLPathKit_Classes_h.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
