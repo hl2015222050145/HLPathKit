@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   					'HLPathKit/Classes/**/*.m',
   					'HLPathKit/Classes/**/*.mm'
   s.public_header_files = 'HLPathKit/Classes/**/*.h'
-
+  s.dependency 'Aspects', '~> 1.4.1'
 end
