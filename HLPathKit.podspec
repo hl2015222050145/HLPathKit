@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/hl2015222050145/HLPathKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'huanglin' => 'hl2015222050145@sina.com' }
-  s.source           = { :git => 'https://github.com/hl2015222050145/HLPathKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:hl2015222050145/HLPathKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'HLPathKit/Classes/**/*.h',
   					'HLPathKit/Classes/**/*.m',
   					'HLPathKit/Classes/**/*.mm'
-  s.header_dir = 'HLPathKit/Classes/**/*.h'
+  s.public_header_files = 'HLPathKit/Classes/**/*.h'
 
 end
