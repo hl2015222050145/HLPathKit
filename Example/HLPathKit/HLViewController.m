@@ -7,6 +7,7 @@
 //
 
 #import "HLViewController.h"
+#import <HLPathKit/PathKitManager.h>
 
 @interface HLViewController ()
 
