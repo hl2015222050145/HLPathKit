@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'HLPathKit'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of HLPathKit.'
+  s.summary          = 'HLPathKit.'
+  s.description      = 'search view path.'
   s.homepage         = 'https://github.com/hl2015222050145/HLPathKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'huanglin' => 'hl2015222050145@sina.com' }
